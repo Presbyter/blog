@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="this is a title这是一片测试的博客数据.   1. 置顶竞猜列表 2. 竞猜详情 3. 提交竞猜 4. 竞猜主题获取 5. 竞猜PK条目 6. 微信支付成功后回调(待确定是否必须) 7. 发起竞猜 8. 我的页面 9. 我的竞猜列表 10. 登录 11. 保存用户信息 12. 查看所有参与用户信息 13. 查看所有中奖用户信息 14. 皮一下 15. 私有群分享接口 16. 添加收货">
+<meta property="og:type" content="article">
+<meta property="og:title" content="first blog">
+<meta property="og:url" content="http://yoursite.com/2018/07/29/first-blog/index.html">
+<meta property="og:site_name" content="Presbyter-Blog">
+<meta property="og:description" content="this is a title这是一片测试的博客数据.   1. 置顶竞猜列表 2. 竞猜详情 3. 提交竞猜 4. 竞猜主题获取 5. 竞猜PK条目 6. 微信支付成功后回调(待确定是否必须) 7. 发起竞猜 8. 我的页面 9. 我的竞猜列表 10. 登录 11. 保存用户信息 12. 查看所有参与用户信息 13. 查看所有中奖用户信息 14. 皮一下 15. 私有群分享接口 16. 添加收货">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-07-29T07:38:45.591Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="first blog">
+<meta name="twitter:description" content="this is a title这是一片测试的博客数据.   1. 置顶竞猜列表 2. 竞猜详情 3. 提交竞猜 4. 竞猜主题获取 5. 竞猜PK条目 6. 微信支付成功后回调(待确定是否必须) 7. 发起竞猜 8. 我的页面 9. 我的竞猜列表 10. 登录 11. 保存用户信息 12. 查看所有参与用户信息 13. 查看所有中奖用户信息 14. 皮一下 15. 私有群分享接口 16. 添加收货">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/07/29/first-blog/"/>
+
+
+
+
+
+  <title>first blog | Presbyter-Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Presbyter-Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/29/first-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Presbyter">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Presbyter-Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">first blog</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-29T15:37:18+08:00">
+                2018-07-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="this-is-a-title"><a href="#this-is-a-title" class="headerlink" title="this is a title"></a>this is a title</h2><p>这是一片测试的博客数据.</p>
+<!-- TOC -->
+<ul>
+<li><a href="#1-置顶竞猜列表">1. 置顶竞猜列表</a></li>
+<li><a href="#2-竞猜详情">2. 竞猜详情</a></li>
+<li><a href="#3-提交竞猜">3. 提交竞猜</a></li>
+<li><a href="#4-竞猜主题获取">4. 竞猜主题获取</a></li>
+<li><a href="#5-竞猜pk条目">5. 竞猜PK条目</a></li>
+<li><a href="#6-微信支付成功后回调待确定是否必须">6. 微信支付成功后回调(待确定是否必须)</a></li>
+<li><a href="#7-发起竞猜">7. 发起竞猜</a></li>
+<li><a href="#8-我的页面">8. 我的页面</a></li>
+<li><a href="#9-我的竞猜列表">9. 我的竞猜列表</a></li>
+<li><a href="#10-登录">10. 登录</a></li>
+<li><a href="#11-保存用户信息">11. 保存用户信息</a></li>
+<li><a href="#12-查看所有参与用户信息">12. 查看所有参与用户信息</a></li>
+<li><a href="#13-查看所有中奖用户信息">13. 查看所有中奖用户信息</a></li>
+<li><a href="#14-皮一下">14. 皮一下</a></li>
+<li><a href="#15-私有群分享接口">15. 私有群分享接口</a></li>
+<li><a href="#16-添加收货地址信息">16. 添加收货地址信息</a></li>
+<li><a href="#17-读取收货地址信息">17. 读取收货地址信息</a></li>
+<li><a href="#18-兑奖接口">18. 兑奖接口</a></li>
+<li><a href="#19-获取微信群id">19. 获取微信群ID</a></li>
+<li><a href="#20-世界杯竞猜开关">20. 世界杯竞猜开关</a></li>
+<li><a href="#21-添加通知接口">21. 添加通知接口</a></li>
+<li><a href="#22-获取实体奖品兑奖方式接口">22. 获取实体奖品兑奖方式接口</a></li>
+<li><a href="#23-第二个开关接口">23. 第二个开关接口</a></li>
+<li><a href="#24-生成小程序二维码">24. 生成小程序二维码</a></li>
+</ul>
+<!-- /TOC -->
+<h1 id="1-置顶竞猜列表"><a href="#1-置顶竞猜列表" class="headerlink" title="1. 置顶竞猜列表"></a>1. 置顶竞猜列表</h1><ol>
+<li>地址:<br>api/TopGuessing</li>
+<li>请求方式:<br>POST</li>
+<li>请求参数<br>无</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜条目ID编号<br> GuessTitle|string|竞猜名称<br> Prize|string|奖品<br> LotteryTime|datetime|开奖时间<br> PictureUrl|string|图片URL路径<br> PlayerA|string|选手A<br> PlayerB|string|选手B<br> PrizeAmount|int|奖品数量<br> SponsorNickname|string|发起者昵称<br> KvPictureUrl|string|KV图片  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"GuessId"</span>: <span class="number">1</span>,</span><br><span class="line">            <span class="string">"GuessTitle"</span>: <span class="string">"竞猜名字1"</span>,</span><br><span class="line">            <span class="string">"LotteryTime"</span>: <span class="string">"1533916800000"</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"KvPictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"PlayerA"</span>: <span class="string">"葡萄牙"</span>,</span><br><span class="line">            <span class="string">"PlayerB"</span>: <span class="string">"西班牙"</span>,</span><br><span class="line">            <span class="string">"Prize"</span>: <span class="string">"一瓶二锅头"</span>,</span><br><span class="line">            <span class="string">"PrizeAmount"</span>: <span class="number">3</span>,</span><br><span class="line">            <span class="string">"SponsorNickname"</span>: <span class="string">"昵称小明"</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="2-竞猜详情"><a href="#2-竞猜详情" class="headerlink" title="2. 竞猜详情"></a>2. 竞猜详情</h1><ol>
+<li>地址:<br>api/GuessDetail</li>
+<li>请求方式:<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜条目ID编号<br> OpenId|string|微信OpenId</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜条目ID编号<br> KvPictureUrl|string|KV图片URL<br> GuessTitle|string|竞猜名称<br> Prize|string|奖品<br> PrizeAmount|int|奖品数量<br> LotteryTime|datetime|开奖时间<br> PictureUrl|string|详情图片URL路径<br> DetailMessage|string|详情信息文字<br> SponsorOpenId|string|发起人OpenId<br> SponsorNickname|string|发起人昵称<br> SponsorAvatar|string|发起人头像地址<br> PlayerA|string|选手A名称(eg.葡萄牙)<br> PlayerB|string|选手B名称(eg.西班牙)<br> StartTime|datetime|竞赛开始时间<br> PlayerAWin|int|竞猜选手A获胜人数<br> PlayerBWin|int|竞猜选手B获胜人数<br> Draw|int|竞猜平局人数<br> TotalPeoples|int|总参数竞猜人数<br> Results|Array|预测结果列表(详情参照下面表格)<br> Groups|Array|私有分享群组列表<br> IsParticipant|bool|是否参与了当前竞猜<br> ChoseResultId|int|所选择的结果ID<br> WinPrizeUsers|Array|中奖人信息列表<br> RuleGuid|string|玩法类型(cb965f33-3b3a-4c95-9c86-3abe29cbbf02 猜净胜; 06cd606e-b5f9-44af-a702-e369b5f0c15c 猜胜负;)<br> RuleType|string|玩法<br> StatusCode|int|竞猜状态(0未开奖;1未中奖;2已中奖)<br> StatusType|string|竞猜状态<br> MatchId|string|懂球帝API<br> RoundName|string|懂球帝API<br> PrizeType|int|奖品类型(0 红包;1 自定义奖品;2 优惠卡券;3 实体奖品)<br> SponsorApp|object|赞助商小程序<br> IsPublic|bool|是否为公开竞猜<br> GameWeek|string|懂球帝gameweek<br> PlayerALogo|string|懂球帝team_a_logo<br> PlayerBLogo|string|懂球帝team_b_logo<br> CreateAt|string|竞猜创建时间(13位时间戳)<br> WinPrizeUserAmount|int|中奖总人数</p>
+<p> <strong>Results 结构说明</strong>  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|预测结果ID编号<br> Message|string|预测结果内容<br> PickPeoples|int|此结果选择总人数<br> AvatarPictureList|Array|选择人头像图片列表(字符串数组)<br> OpenIds|Array|选择人OpenID列表(int数组)</p>
+<p> <strong>Groups 结构说明</strong>  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|自增ID编号<br> GroupId|string|微信群组ID<br> GroupName|string|微信群组名称  </p>
+<p> <strong>WinPrizeUsers 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Openid|string|用户openid<br> Nickname|string|用户昵称<br> AvatarPicture|string|用户头像地址<br> Balance|float|用户账户余额<br> Phone|string|用户手机号码<br> Address|string|用户地址</p>
+<p> <strong>SponsorApp 结构说明</strong><br> 属性名|类型|说明<br> —|:—:|—<br> Id|int|赞助商ID<br> Appid|string|appid<br> Path|string|path<br> Foo|string|foo  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"GuessId"</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">"KvPictureUrl"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"GuessTitle"</span>: <span class="string">"俄罗斯 VS 沙特阿拉伯"</span>,</span><br><span class="line">        <span class="string">"PrizeType"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"Prize"</span>: <span class="string">"农夫山泉"</span>,</span><br><span class="line">        <span class="string">"PrizeAmount"</span>: <span class="number">15</span>,</span><br><span class="line">        <span class="string">"LotteryTime"</span>: <span class="string">"1528618529000"</span>,</span><br><span class="line">        <span class="string">"PictureUrl"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"DetailMessage"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"SponsorOpenId"</span>: <span class="string">"123456"</span>,</span><br><span class="line">        <span class="string">"SponsorNickname"</span>: <span class="string">"小明"</span>,</span><br><span class="line">        <span class="string">"SponsorAvatar"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">        <span class="string">"PlayerA"</span>: <span class="string">"俄罗斯"</span>,</span><br><span class="line">        <span class="string">"PlayerB"</span>: <span class="string">"沙特阿拉伯"</span>,</span><br><span class="line">        <span class="string">"StartTime"</span>: <span class="string">"1528988400000"</span>,</span><br><span class="line">        <span class="string">"PlayerAWin"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"PlayerBWin"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"Draw"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"TotalPeoples"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"Results"</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"Id"</span>: <span class="number">14</span>,</span><br><span class="line">                <span class="string">"Message"</span>: <span class="string">"俄罗斯获胜"</span>,</span><br><span class="line">                <span class="string">"PickPeoples"</span>: <span class="number">0</span>,</span><br><span class="line">                <span class="string">"AvatarPictureList"</span>: <span class="literal">null</span>,</span><br><span class="line">                <span class="string">"OpenIds"</span>: <span class="literal">null</span></span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"Id"</span>: <span class="number">15</span>,</span><br><span class="line">                <span class="string">"Message"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"PickPeoples"</span>: <span class="number">0</span>,</span><br><span class="line">                <span class="string">"AvatarPictureList"</span>: <span class="literal">null</span>,</span><br><span class="line">                <span class="string">"OpenIds"</span>: <span class="literal">null</span></span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"Id"</span>: <span class="number">16</span>,</span><br><span class="line">                <span class="string">"Message"</span>: <span class="string">"沙特阿拉伯获胜"</span>,</span><br><span class="line">                <span class="string">"PickPeoples"</span>: <span class="number">0</span>,</span><br><span class="line">                <span class="string">"AvatarPictureList"</span>: <span class="literal">null</span>,</span><br><span class="line">                <span class="string">"OpenIds"</span>: <span class="literal">null</span></span><br><span class="line">            &#125;</span><br><span class="line">        ],</span><br><span class="line">        <span class="string">"Groups"</span>: <span class="literal">null</span>,</span><br><span class="line">        <span class="string">"IsParticipant"</span>: <span class="literal">false</span>,</span><br><span class="line">        <span class="string">"ChoseResultId"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"WinPrizeUsers"</span>: <span class="literal">null</span>,</span><br><span class="line">        <span class="string">"RuleGuid"</span>: <span class="string">"06cd606e-b5f9-44af-a702-e369b5f0c15c"</span>,</span><br><span class="line">        <span class="string">"RuleType"</span>: <span class="string">"猜胜负"</span>,</span><br><span class="line">        <span class="string">"StatusCode"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"StatusType"</span>: <span class="string">"未开奖"</span>,</span><br><span class="line">        <span class="string">"MatchId"</span>: <span class="string">"50340630"</span>,</span><br><span class="line">        <span class="string">"RoundName"</span>: <span class="string">"小组赛"</span>,</span><br><span class="line">        <span class="string">"SponsorApp"</span>: &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">0</span>,</span><br><span class="line">            <span class="string">"Appid"</span>: <span class="string">""</span>,</span><br><span class="line">            <span class="string">"Path"</span>: <span class="string">""</span>,</span><br><span class="line">            <span class="string">"Foo"</span>: <span class="string">""</span></span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="string">"IsPublic"</span>: <span class="literal">false</span>,</span><br><span class="line">        <span class="string">"GameWeek"</span>: <span class="string">"1"</span>,</span><br><span class="line">        <span class="string">"PlayerALogo"</span>: <span class="string">"https://img.dongqiudi.com/data/pic/1878.png"</span>,</span><br><span class="line">        <span class="string">"PlayerBLogo"</span>: <span class="string">"https://img.dongqiudi.com/data/pic/1897.png"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="3-提交竞猜"><a href="#3-提交竞猜" class="headerlink" title="3. 提交竞猜"></a>3. 提交竞猜</h1><ol>
+<li>地址<br>api/Guess</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜条目ID编号<br> OpenId|string|微信OpenId<br> ResultId|int|竞猜结果ID</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"提交成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="4-竞猜主题获取"><a href="#4-竞猜主题获取" class="headerlink" title="4. 竞猜主题获取"></a>4. 竞猜主题获取</h1><ol>
+<li>地址<br>api/TopicList</li>
+<li>请求方式<br>POST</li>
+<li>请求参数<br>无</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|竞猜主题ID<br> Title|string|标题(eg.2018世界杯,城市比拼)<br> PictureUrl|string|图片路径  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">1</span>,</span><br><span class="line">            <span class="string">"Title"</span>: <span class="string">"猜热度"</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">2</span>,</span><br><span class="line">            <span class="string">"Title"</span>: <span class="string">"世界杯"</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="5-竞猜PK条目"><a href="#5-竞猜PK条目" class="headerlink" title="5. 竞猜PK条目"></a>5. 竞猜PK条目</h1><ol>
+<li>地址<br>api/PKList</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> TopicId|int|主题ID  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"finishFlag"</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="string">"list"</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"TVList"</span>: <span class="string">"直播信息待更新"</span>,</span><br><span class="line">                <span class="string">"ags_A"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"ags_B"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"area_shield"</span>: <span class="literal">true</span>,</span><br><span class="line">                <span class="string">"as_A"</span>: <span class="literal">null</span>,</span><br><span class="line">                <span class="string">"as_B"</span>: <span class="literal">null</span>,</span><br><span class="line">                <span class="string">"competition_id"</span>: <span class="string">"61"</span>,</span><br><span class="line">                <span class="string">"competition_name"</span>: <span class="string">"决战俄罗斯"</span>,</span><br><span class="line">                <span class="string">"date_utc"</span>: <span class="string">"2018-06-14"</span>,</span><br><span class="line">                <span class="string">"ets_A"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"ets_B"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"fs_A"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"fs_B"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"gameweek"</span>: <span class="string">"1"</span>,</span><br><span class="line">                <span class="string">"intermission"</span>: <span class="number">0</span>,</span><br><span class="line">                <span class="string">"match_id"</span>: <span class="string">"50340630"</span>,</span><br><span class="line">                <span class="string">"match_title"</span>: <span class="string">"决战俄罗斯 小组赛"</span>,</span><br><span class="line">                <span class="string">"minute"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"minute_extra"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"minute_period"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"onlySem"</span>: <span class="literal">true</span>,</span><br><span class="line">                <span class="string">"playing_time"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"ps_A"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"ps_B"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"relate_id"</span>: <span class="string">"50340630"</span>,</span><br><span class="line">                <span class="string">"relate_type"</span>: <span class="string">"match"</span>,</span><br><span class="line">                <span class="string">"round_name"</span>: <span class="string">"小组赛"</span>,</span><br><span class="line">                <span class="string">"score_info"</span>: <span class="string">""</span>,</span><br><span class="line">                <span class="string">"sort_timestamp"</span>: <span class="number">1528959600</span>,</span><br><span class="line">                <span class="string">"start_play"</span>: <span class="string">"2018-06-14 15:00:00"</span>,</span><br><span class="line">                <span class="string">"status"</span>: <span class="string">"Fixture"</span>,</span><br><span class="line">                <span class="string">"suretime"</span>: <span class="string">"1"</span>,</span><br><span class="line">                <span class="string">"team_A_id"</span>: <span class="string">"50001622"</span>,</span><br><span class="line">                <span class="string">"team_A_logo"</span>: <span class="string">"https://img.dongqiudi.com/data/pic/1878.png"</span>,</span><br><span class="line">                <span class="string">"team_A_name"</span>: <span class="string">"俄罗斯"</span>,</span><br><span class="line">                <span class="string">"team_B_id"</span>: <span class="string">"50001640"</span>,</span><br><span class="line">                <span class="string">"team_B_logo"</span>: <span class="string">"https://img.dongqiudi.com/data/pic/1897.png"</span>,</span><br><span class="line">                <span class="string">"team_B_name"</span>: <span class="string">"沙特阿拉伯"</span>,</span><br><span class="line">                <span class="string">"time_utc"</span>: <span class="string">"15:00:00"</span>,</span><br><span class="line">                <span class="string">"videoFlag"</span>: <span class="literal">false</span>,</span><br><span class="line">                <span class="string">"webLivingFlag"</span>: <span class="literal">false</span></span><br><span class="line">            &#125;</span><br><span class="line">        ],</span><br><span class="line">        <span class="string">"nextDate"</span>: <span class="string">"2018-09-08 00:00:00"</span>,</span><br><span class="line">        <span class="string">"prevDate"</span>: <span class="string">"2016-09-17 00:00:00"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="6-微信支付成功后回调-待确定是否必须"><a href="#6-微信支付成功后回调-待确定是否必须" class="headerlink" title="6. 微信支付成功后回调(待确定是否必须)"></a>6. 微信支付成功后回调(待确定是否必须)</h1><ol>
+<li>地址<br>api/CallbackOrder</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|支付人OpenId<br> PayMoney|double|支付金额<br> PayTime|datetime|支付成功时间  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"订单生成成功,订单ID请参照Data字段"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"OrderId"</span>: <span class="number">7943</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="7-发起竞猜"><a href="#7-发起竞猜" class="headerlink" title="7. 发起竞猜"></a>7. 发起竞猜</h1><ol>
+<li>地址<br>api/CreateGuess</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|发起人OpenId<br> TopicId|int|玩法主题ID<br> MatchId|string|懂球帝API<br> RuleGuid|string|玩法类型(cb965f33-3b3a-4c95-9c86-3abe29cbbf02 猜净胜; 06cd606e-b5f9-44af-a702-e369b5f0c15c 猜胜负;)<br> PrizeType|int|奖品类型(0 红包;1 自定义奖品;2 优惠卡券;3 实体奖品)<br> Prize|string|奖品名称(奖品类型为自定义奖品时,必填)<br> PrizeAmount|int|奖品数量(奖品类型为自定义奖品时,必填)<br> LotteryTime|datetime|开奖时间<br> IsPublic|bool|竞猜是否公开<br> RedEnvelopeTotal|double|红包总额(奖品类型为红包时,必填)<br> RedEnvelopeAmount|int|红包数量(奖品类型为红包时,必填)<br> OrderId|int|订单ID(奖品类型为红包时,必填)</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"新增竞猜成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"GuessId"</span>: <span class="number">9</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="8-我的页面"><a href="#8-我的页面" class="headerlink" title="8. 我的页面"></a>8. 我的页面</h1><ol>
+<li>地址<br>api/MyGuess</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> Nickname|string|微信昵称<br> AvatarPictureUrl|string|头像图片URL<br> Total|int|总竞猜次数<br> WinTimes|int|猜中次数<br> PrizeTimes|int|中奖次数<br> OriginateTimes|int|发起竞猜次数<br> Balance|double|余额  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"Openid"</span>: <span class="string">"123456"</span>,</span><br><span class="line">        <span class="string">"Nickname"</span>: <span class="string">"小明"</span>,</span><br><span class="line">        <span class="string">"AvatarPicture"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">        <span class="string">"Balance"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"Phone"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"Address"</span>: <span class="string">""</span>,</span><br><span class="line">        <span class="string">"Total"</span>: <span class="number">2</span>,</span><br><span class="line">        <span class="string">"WinTimes"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"PrizeTimes"</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="string">"OriginateTimes"</span>: <span class="number">0</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="9-我的竞猜列表"><a href="#9-我的竞猜列表" class="headerlink" title="9. 我的竞猜列表"></a>9. 我的竞猜列表</h1><ol>
+<li>地址<br>api/MyGuessList</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> TypeId|int|列表类别Id(0 全部竞猜列表;1 猜中竞猜列表;2 中奖竞猜列表;3 我发起的竞猜列表;)<br> PageIndex|int|页码<br> PageSize|int|页大小  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> List|Array|列表<br> PageIndex|int|页数<br> PageSize|int|每页行数<br> TotalPage|int|总页数</p>
+<p> <strong>List 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜条目ID编号<br> GuessTitle|string|竞猜名称<br> Prize|string|奖品<br> PrizeAmount|int|奖品数量<br> PlayerA|string|选手A<br> PlayerB|string|选手B<br> StatusCode|int|竞猜状态(0未开奖;1未中奖;2已中奖)<br> StatusType|string|竞猜状态  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"我的全部竞猜列表"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"List"</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"GuessId"</span>: <span class="number">1</span>,</span><br><span class="line">                <span class="string">"GuessTitle"</span>: <span class="string">"竞猜名字1"</span>,</span><br><span class="line">                <span class="string">"PlayerA"</span>: <span class="string">"葡萄牙"</span>,</span><br><span class="line">                <span class="string">"PlayerB"</span>: <span class="string">"西班牙"</span>,</span><br><span class="line">                <span class="string">"Prize"</span>: <span class="string">"一瓶二锅头"</span>,</span><br><span class="line">                <span class="string">"PrizeAmount"</span>: <span class="number">3</span>,</span><br><span class="line">                <span class="string">"StatusCode"</span>: <span class="number">2</span>,</span><br><span class="line">                <span class="string">"StatusType"</span>: <span class="string">"已中奖"</span></span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"GuessId"</span>: <span class="number">2</span>,</span><br><span class="line">                <span class="string">"GuessTitle"</span>: <span class="string">"竞猜名字2"</span>,</span><br><span class="line">                <span class="string">"PlayerA"</span>: <span class="string">"葡萄牙"</span>,</span><br><span class="line">                <span class="string">"PlayerB"</span>: <span class="string">"西班牙"</span>,</span><br><span class="line">                <span class="string">"Prize"</span>: <span class="string">"一瓶二锅头"</span>,</span><br><span class="line">                <span class="string">"PrizeAmount"</span>: <span class="number">3</span>,</span><br><span class="line">                <span class="string">"StatusCode"</span>: <span class="number">0</span>,</span><br><span class="line">                <span class="string">"StatusType"</span>: <span class="string">"未开奖"</span></span><br><span class="line">            &#125;</span><br><span class="line">        ],</span><br><span class="line">        <span class="string">"PageIndex"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"PageSize"</span>: <span class="number">10</span>,</span><br><span class="line">        <span class="string">"TotalPage"</span>: <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="10-登录"><a href="#10-登录" class="headerlink" title="10. 登录"></a>10. 登录</h1><ol>
+<li>地址<br>api/Login</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|string|微信必要参数  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容</p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"登录成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"OpenId"</span>: <span class="string">"oxjpo5AVY8lFPBORTHBA4P3ZO8Gg"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="11-保存用户信息"><a href="#11-保存用户信息" class="headerlink" title="11. 保存用户信息"></a>11. 保存用户信息</h1><ol>
+<li>地址<br>api/SaveUserInfo</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> EncryptedData|string|加密数据(微信wx.getUserInfo返回值字段)<br> Iv|string|加密算法的初始向量(微信wx.getUserInfo返回值字段)  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+</li>
+<li>返回值示例  </li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"保存成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="12-查看所有参与用户信息"><a href="#12-查看所有参与用户信息" class="headerlink" title="12. 查看所有参与用户信息"></a>12. 查看所有参与用户信息</h1><ol>
+<li>地址<br>api/UserResultList</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜ID<br> ResultId|int|结果ID<br> PageIndex|int|页数<br> PageSize|int|每页行数  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> List|Array|参与竞猜用户列表<br> PageIndex|int|页数<br> PageSize|int|每页行数<br> TotalPage|int|总页数</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"List"</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"Openid"</span>: <span class="string">"234567"</span>,</span><br><span class="line">                <span class="string">"Nickname"</span>: <span class="string">"小红"</span>,</span><br><span class="line">                <span class="string">"AvatarPicture"</span>: <span class="string">"http://localhost/234.jpg"</span></span><br><span class="line">            &#125;</span><br><span class="line">        ],</span><br><span class="line">        <span class="string">"PageIndex"</span>: <span class="number">2</span>,</span><br><span class="line">        <span class="string">"PageSize"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"TotalPage"</span>: <span class="number">2</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="13-查看所有中奖用户信息"><a href="#13-查看所有中奖用户信息" class="headerlink" title="13. 查看所有中奖用户信息"></a>13. 查看所有中奖用户信息</h1><ol>
+<li>地址<br>api/GuessWinUserList</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜ID<br> PageIndex|int|页数<br> PageSize|int|每页行数  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> List|Array|参与竞猜用户列表<br> PageIndex|int|页数<br> PageSize|int|每页行数<br> TotalPage|int|总页数</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"数据请参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"List"</span>: [</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="string">"Openid"</span>: <span class="string">"123456"</span>,</span><br><span class="line">                <span class="string">"Nickname"</span>: <span class="string">"小明"</span>,</span><br><span class="line">                <span class="string">"AvatarPicture"</span>: <span class="string">"http://localhost/123.jpg"</span></span><br><span class="line">            &#125;</span><br><span class="line">        ],</span><br><span class="line">        <span class="string">"PageIndex"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"PageSize"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"TotalPage"</span>: <span class="number">2</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="14-皮一下"><a href="#14-皮一下" class="headerlink" title="14. 皮一下"></a>14. 皮一下</h1><ol>
+<li>地址<br>api/Pi</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数<br>无</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Array|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|条目ID<br> PictureUrl|string|图片地址<br> Message|string|文字内容</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">2</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"Message"</span>: <span class="string">"346524563456!@#%$@$&amp;^*"</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">1</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"Message"</span>: <span class="string">"123123123123123!@#%$@$&amp;^*"</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">3</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"Message"</span>: <span class="string">"678797680!@#%$@$&amp;^*"</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">6</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"Message"</span>: <span class="string">"999999999999999999999999999!@#%$@$&amp;^*"</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">4</span>,</span><br><span class="line">            <span class="string">"PictureUrl"</span>: <span class="string">"http://localhost/123.jpg"</span>,</span><br><span class="line">            <span class="string">"Message"</span>: <span class="string">"rtyhfdghsg3!@#%$@$&amp;^*"</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="15-私有群分享接口"><a href="#15-私有群分享接口" class="headerlink" title="15. 私有群分享接口"></a>15. 私有群分享接口</h1><ol>
+<li>地址<br>api/PrivateGroup</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenGid|string|群组ID<br> GroupName|string|群名称<br> GuessId|int|竞猜ID</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"添加群ID信息成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="16-添加收货地址信息"><a href="#16-添加收货地址信息" class="headerlink" title="16. 添加收货地址信息"></a>16. 添加收货地址信息</h1><ol>
+<li>地址<br>api/CreateShippingAddress</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> UserName|string|收货人姓名<br> PostalCode|string|邮编<br> ProvinceName|string|国标收货地址第一级地址<br> CityName|string|国标收货地址第二级地址<br> CountyName|string|国标收货地址第三级地址<br> DetailInfo|string|详细收货地址信息<br> NationalCode|string|收货地址国家码<br> TelNumber|string|收货人手机号码</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Object|返回内容  </p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"添加信息成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="17-读取收货地址信息"><a href="#17-读取收货地址信息" class="headerlink" title="17. 读取收货地址信息"></a>17. 读取收货地址信息</h1><ol>
+<li>地址<br>api/GetShippingAddress</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Array|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|地址编号<br> UserOpenid|string|微信OpenId<br> UserName|string|收货人姓名<br> PostalCode|string|邮编<br> ProvinceName|string|国标收货地址第一级地址<br> CityName|string|国标收货地址第二级地址<br> CountyName|string|国标收货地址第三级地址<br> DetailInfo|string|详细收货地址信息<br> NationalCode|string|收货地址国家码<br> TelNumber|string|收货人手机号码</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">"Id"</span>: <span class="number">1</span>,</span><br><span class="line">            <span class="string">"UserOpenid"</span>: <span class="string">"123456"</span>,</span><br><span class="line">            <span class="string">"UserName"</span>: <span class="string">"小明"</span>,</span><br><span class="line">            <span class="string">"ProvinceName"</span>: <span class="string">"北京市"</span>,</span><br><span class="line">            <span class="string">"CityName"</span>: <span class="string">"北京市"</span>,</span><br><span class="line">            <span class="string">"CountyName"</span>: <span class="string">"中国"</span>,</span><br><span class="line">            <span class="string">"DetailInfo"</span>: <span class="string">"详细地址信息如此行内容"</span>,</span><br><span class="line">            <span class="string">"NationalCode"</span>: <span class="string">"收货地址国家码"</span>,</span><br><span class="line">            <span class="string">"TelNumber"</span>: <span class="string">"13333333333"</span>,</span><br><span class="line">            <span class="string">"PostalCode"</span>: <span class="string">"100000"</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="18-兑奖接口"><a href="#18-兑奖接口" class="headerlink" title="18. 兑奖接口"></a>18. 兑奖接口</h1><ol>
+<li>地址<br>api/Redeem</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> GuessId|int|竞猜ID</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|Array|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Id|int|奖券编号<br> PrizeCode|string|奖券CODE<br> Specification|string|兑换说明(不通奖券的兑换方式不一样么?我觉得这个设计可能没有什么用)<br> GuessdetailId|string|竞猜ID<br> UserOpenid|string|微信openid</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"Id"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="string">"PrizeCode"</span>: <span class="string">"cbe7312a-77a6-4cd4-a4eb-1e18fb61a9b5"</span>,</span><br><span class="line">        <span class="string">"Specification"</span>: <span class="string">"开奖说明,不知道来源怎么设计......"</span>,</span><br><span class="line">        <span class="string">"GuessdetailId"</span>: <span class="number">6</span>,</span><br><span class="line">        <span class="string">"UserOpenid"</span>: <span class="string">"123456"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="19-获取微信群ID"><a href="#19-获取微信群ID" class="headerlink" title="19. 获取微信群ID"></a>19. 获取微信群ID</h1><ol>
+<li>地址<br>api/GetOpenGid</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenId|string|微信OpenId<br> EncryptedData|string|加密数据(微信返回值字段)<br> Iv|string|加密算法的初始向量(微信返回值字段)  </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|object|返回内容  </p>
+<p> <strong>Data 结构说明</strong></p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> OpenGid|string|微信OpenGid</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"OpenGid"</span>: <span class="string">"12346785sdfg"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="20-世界杯竞猜开关"><a href="#20-世界杯竞猜开关" class="headerlink" title="20. 世界杯竞猜开关"></a>20. 世界杯竞猜开关</h1><ol>
+<li>地址<br>api/GetFootballValue</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数<br>无</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|bool|开关值  </p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="21-添加通知接口"><a href="#21-添加通知接口" class="headerlink" title="21. 添加通知接口"></a>21. 添加通知接口</h1><ol>
+<li>地址<br>api/Notice</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> openid|string|openid<br> template_id|string|template_id<br> page|string|page<br> form_id|string|form_id</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|object|null</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"添加数据成功"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="22-获取实体奖品兑奖方式接口"><a href="#22-获取实体奖品兑奖方式接口" class="headerlink" title="22. 获取实体奖品兑奖方式接口"></a>22. 获取实体奖品兑奖方式接口</h1><ol>
+<li>地址<br>api/RealPrizeRedeem</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> GuessId|int|竞猜ID </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|object|null</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: &#123;</span><br><span class="line">        <span class="string">"PrizeType"</span>: <span class="number">3</span>,</span><br><span class="line">        <span class="string">"Specification"</span>: <span class="string">"兑奖信息：\r\n      1.中奖后在“兑奖详情”页面输入姓名和手机号，到店消费时凭此姓名手机号或出示中奖页面可领取大盘鸡，每位中奖者限1份。\r\n      2.此优惠有效期至2018年08月31日，过期无效。中奖后请尽快消费，以免过期。\r\n      3.此奖品及兑奖相关信息由小巴扎提供，如有疑问请关注“小巴扎的春天”，在公众号中点击导航菜单“我的”-“客服”进行咨询。"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="23-第二个开关接口"><a href="#23-第二个开关接口" class="headerlink" title="23. 第二个开关接口"></a>23. 第二个开关接口</h1><ol>
+<li>地址<br>api/SecondOnOff</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数<br>无</p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|object|null</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"参照Data"</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="24-生成小程序二维码"><a href="#24-生成小程序二维码" class="headerlink" title="24. 生成小程序二维码"></a>24. 生成小程序二维码</h1><ol>
+<li>地址<br>api/CreateWxQR</li>
+<li>请求方式<br>POST</li>
+<li><p>请求参数  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> scene|string|scene<br> path|string|path </p>
+</li>
+<li><p>返回值说明  </p>
+<p> 属性名|类型|说明<br> —|:—:|—<br> Code|int|返回值编码<br> Message|string|操作结果或错误结果<br> Data|string|图片地址</p>
+</li>
+<li><p>返回值示例  </p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Code"</span>: <span class="number">200</span>,</span><br><span class="line">    <span class="string">"Message"</span>: <span class="string">"二维码生成成功,Data为图片地址."</span>,</span><br><span class="line">    <span class="string">"Data"</span>: <span class="string">"https://zxcloud-1256679961.cos.ap-beijing.myqcloud.com/wxqrs/2a05de12-2bab-4006-9019-33dd0fb47128.jpg"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/07/29/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Presbyter</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#this-is-a-title"><span class="nav-number">1.</span> <span class="nav-text">this is a title</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-置顶竞猜列表"><span class="nav-number"></span> <span class="nav-text">1. 置顶竞猜列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-竞猜详情"><span class="nav-number"></span> <span class="nav-text">2. 竞猜详情</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-提交竞猜"><span class="nav-number"></span> <span class="nav-text">3. 提交竞猜</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-竞猜主题获取"><span class="nav-number"></span> <span class="nav-text">4. 竞猜主题获取</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-竞猜PK条目"><span class="nav-number"></span> <span class="nav-text">5. 竞猜PK条目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-微信支付成功后回调-待确定是否必须"><span class="nav-number"></span> <span class="nav-text">6. 微信支付成功后回调(待确定是否必须)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-发起竞猜"><span class="nav-number"></span> <span class="nav-text">7. 发起竞猜</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-我的页面"><span class="nav-number"></span> <span class="nav-text">8. 我的页面</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-我的竞猜列表"><span class="nav-number"></span> <span class="nav-text">9. 我的竞猜列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-登录"><span class="nav-number"></span> <span class="nav-text">10. 登录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#11-保存用户信息"><span class="nav-number"></span> <span class="nav-text">11. 保存用户信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#12-查看所有参与用户信息"><span class="nav-number"></span> <span class="nav-text">12. 查看所有参与用户信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#13-查看所有中奖用户信息"><span class="nav-number"></span> <span class="nav-text">13. 查看所有中奖用户信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#14-皮一下"><span class="nav-number"></span> <span class="nav-text">14. 皮一下</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#15-私有群分享接口"><span class="nav-number"></span> <span class="nav-text">15. 私有群分享接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#16-添加收货地址信息"><span class="nav-number"></span> <span class="nav-text">16. 添加收货地址信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#17-读取收货地址信息"><span class="nav-number"></span> <span class="nav-text">17. 读取收货地址信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#18-兑奖接口"><span class="nav-number"></span> <span class="nav-text">18. 兑奖接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#19-获取微信群ID"><span class="nav-number"></span> <span class="nav-text">19. 获取微信群ID</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#20-世界杯竞猜开关"><span class="nav-number"></span> <span class="nav-text">20. 世界杯竞猜开关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#21-添加通知接口"><span class="nav-number"></span> <span class="nav-text">21. 添加通知接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#22-获取实体奖品兑奖方式接口"><span class="nav-number"></span> <span class="nav-text">22. 获取实体奖品兑奖方式接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#23-第二个开关接口"><span class="nav-number"></span> <span class="nav-text">23. 第二个开关接口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#24-生成小程序二维码"><span class="nav-number"></span> <span class="nav-text">24. 生成小程序二维码</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Presbyter</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
